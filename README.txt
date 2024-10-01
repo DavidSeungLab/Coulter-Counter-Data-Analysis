@@ -30,4 +30,4 @@ Versions:
 Each subfolder contains the most recent, up-to-date version of the script. Within the subfolders there are copies of previous versions of the script. 
 
 Previous versions:
-2023 - has a different x-axis for plotting.
+2023 - has a different y-axis for plotting, and defines the log-normal and normal distributions marginally differently.
