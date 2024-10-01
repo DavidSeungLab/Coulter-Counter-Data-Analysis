@@ -13,7 +13,7 @@ The scripts should be run using a Jupyter notebook. The running script is the on
 	
 	x_value_to_plot_to = default 50 - this is maximum value plotted on the x axis, for the 70 um aperture 50 is 	enough, but should be increased if a larger aperture is used so that the data are not truncated
 
-	display_initial_parameter_graphs = default 'FALSE', options are 'TRUE' or 'FALSE', if true then plots of the 	initial parameters will be saved, these can be useful if the fits are bad and you want to alter the initial 	parameters before rerunning the fitting
+	display_initial_parameter_graphs = default 'FALSE', options are 'TRUE' or 'FALSE', if true then plots of the 	initial parameters will be saved, these can be useful if the fits are bad and you want to alter the initial parameters before rerunning the fitting
 
 	it also allows the initial parameters of the initial parameters to be edited individually
 
@@ -28,3 +28,6 @@ Error catching is incorporated to produce lists of samples where the script comp
 
 Versions:
 Each subfolder contains the most recent, up-to-date version of the script. Within the subfolders there are copies of previous versions of the script. 
+
+Previous versions:
+2023 - has a different x-axis for plotting.
