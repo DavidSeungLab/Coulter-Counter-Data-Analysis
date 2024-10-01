@@ -1,4 +1,5 @@
-README:
+Purpose:
+The script fits distributions to bimodal or unimodal size distribution curves to allow estimation of starch granule size.
 
 Formatting of individual data files:
 An example of how data should be formatted for input is provided - 'Data_template.csv'. This is the format of CSV files produced by the Multisizer 4e Coulter counter (Beckman Coulter). Briefly: Data should be organised in a csv file with a .csv filename - if not the script won't recognise it. The starting diameter of first bin should be placed in cell B56, with the corresponding differential volume (%) placed in the adjacent cell (C56). The maximum size of the final bin should be placed directly underneath the final row of data in column B. Lines 1-52 contained info from the coulter counter and these can be left empty as they are skipped by the script.
